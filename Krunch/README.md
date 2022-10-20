@@ -19,10 +19,10 @@ where `<url-you-copied>` is the url to this repository (your fork of this projec
 For example:
 
 ```sh
-git clone https://github.com/tobisupreme/altschool-opensource-names.git
+git clone https://github.com/Succynice/practice.git
 ```
 
-Your GitHub username will be in place of `tobisupreme`. Here you're copying the contents of the **practice** repository on GitHub to your computer.
+Your GitHub username will be in place of `Succynice`. Here you're copying the contents of the **practice** repository on GitHub to your computer.
 
 ## Make a branch
 
@@ -35,7 +35,7 @@ cd practice/
 Keep a reference to the original project by entering the following command:
 
 ```sh
-git remote add upstream https://github.com/Oluwasetemi/altschool-opensource-names.git
+git remote add upstream https://github.com/Succynice/practice.git
 ```
 
 Create a new branch that describes the changes that you're going to make. For example, to create a branch named "adding-new-name", enter the following command:
@@ -52,7 +52,11 @@ git checkout adding-new-name
 
 ## Make changes and commit the changes
 
-Now open `Krunch` directory and add your changes.
+Now open `Krunch` directory if you are not there already and make your changes.
+
+```sh
+cd Krunch/
+```
 
 Now, save your changes.
 
