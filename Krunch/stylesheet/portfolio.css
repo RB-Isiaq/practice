@@ -1,0 +1,57 @@
+.portfolio h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.portfolio .sec1 {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Portfolio images container */
+.potfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.ptimg1 {
+  flex: 25%;
+}
+
+.ptimg2 {
+  flex: 25%;
+}
+
+.ptimg3 {
+  flex: 25%;
+}
+
+.ptimg4 {
+  flex: 25%;
+}
+
+.potfolio-images.slide2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.potfolio-images.slide2.ptimg1 {
+  flex: 25%;
+}
+
+.potfolio-images.slide2.ptimg2 {
+  flex: 25%;
+}
+
+.potfolio-images.slide2.ptimg3 {
+  flex: 25%;
+}
+
+.potfolio-images.slide2.ptimg4 {
+  flex: 25%;
+}
