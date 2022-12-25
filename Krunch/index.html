@@ -4,48 +4,424 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./stylesheet/home.css" />
-    <link rel="stylesheet" href="./stylesheet/about.css" />
-    <link rel="stylesheet" href="./stylesheet/portfolio.css" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+
+    <script defer src="./scripts/script.js"></script>
     <title>Krunch</title>
   </head>
-
   <body>
-    <nav #home>
-      <div class="nav-container">
-        <div class="home container">
-          <div class="topnav">
-            <a style="float: left; font-size: 20px" href="#">Krunch</a>
-            <a href="#contact">CONTACT</a>
-            <a href="#blog">BLOG</a>
-            <a href="#team">TEAM</a>
-            <a href="#services">SERVICES</a>
-            <a href="#portfolio">PORTFOLIO</a>
-            <a href="#about">ABOUT</a>
-            <a href="#home">HOME</a>
-          </div>
+    <main class="main--body">
+      <!-- Home container-->
+      <div class="section" id="home">
+        <section class="home--container">
+            <header class="header">
+                <nav class="nav--titles">
+                  <h1 class="title">Krunch</h1>
+                    <div class="links--container">
+                      <a class="nav--links"  href="#home" >HOME</a>
+                      <a class="nav--links" href="#about" >ABOUT</a>
+                      <a class="nav--links" href="#portfolio"
+                        >PORTFOLIO</a
+                      >
+                      <a class="nav--links" href="#services"
+                        >SERVICES</a
+                      >
+                      <a class="nav--links" href="#team" >TEAM</a>
+                      <a class="nav--links" href="#blog" >BLOG</a>
+                      <a class="nav--links" href="#contact"
+                        >CONTACT</a
+                      >
+                    </div>
 
-          <div class="menu content">
+                    <div class="toggle-collapse">
+                      <div class="toggle-icons">
+                        <i id="toggle" class="fas fa-bars"></i>
+                      </div>
+                    </div>
+                </nav>
+            </header>
+
+          <div class="home--body">
             <h1>CLEAN AND FLEXIBLE TEMPLATE</h1>
             <p>
-              Aenean faucibus nibh and just the course of that rutrum lorem
-              imperdiet. Now to put the sad smile of life. The course of the
-              house, my who would decorate the cartoon, sometimes there was no
-              pain, so that the advantage of the home was a free life.
+              Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+              Nunc ut sem vitae risus tristique posuere. Duis cursus, mi quis
+              viverra ornare, eros dolor interdum nulla ut commodo vitae erat.
             </p>
-            <div class="btn-container">
-              <button class="navbutton">
-                <a href="#services">DOWNLOAD NOW</a>
-              </button>
-              <button class="navbutton second">
-                <a href="#services">VIEW FEATURES</a>
-              </button>
+            <div class="btn--container">
+              <button class="btn btn--1">DOWNLOAD NOW</button>
+              <button class="btn btn--2">VIEW FEATURES</button>
+            </div>
+
+            <a class="last"><i class="fa-solid fa-chevron-down"></i></a>
+          </div>
+        </section>
+      </div>
+
+      <!--x Home container x-->
+      <div class="section" id="about">
+        <section class="about--container">
+          <div class="top">
+            <h1>ABOUT US</h1>
+            <p>Setibulum rutrum quam vitae fringilla tincidunt</p>
+            <div class="line"></div>
+          </div>
+          <div class="down">
+            <div class="left">
+              Lorem ipsum dolor sitamet, consectetur adipisicing elit, seddo
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quisus nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. <br /><br />
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum. Excepteur sint
+              occaecat cupidatat none proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum voluptate dolor.
+            </div>
+            <div class="right"><img src="./img/about.jpg" alt="about" /></div>
+          </div>
+        </section>
+      </div>
+      <div class="section" id="portfolio">
+        <section class="portfolio--container">
+          <div class="top">
+            <h1>PORTFOLIO</h1>
+            <p>An eye for detail makes our work beautiful</p>
+            <div class="line"></div>
+          </div>
+          <div class="projects">
+            <div class="project">
+              <div class="overlay hide">
+                <h2>GRAPHIC DESIGNS</h2>
+              </div>
+              <img src="./img/port1.jpeg" alt="" />
+            </div>
+            <div class="project">
+              <div class="overlay hide">
+                <h2>PRINT DESIGN</h2>
+              </div>
+              <img src="./img/port2.jpeg" alt="" />
+            </div>
+            <div class="project">
+              <div class="overlay hide">
+                <h2>MOBILE APPS</h2>
+              </div>
+              <img src="./img/port3.jpeg" alt="" />
+            </div>
+            <div class="project">
+              <div class="overlay hide">
+                <h2>3D DRAWING</h2>
+              </div>
+              <img src="./img/port4.jpeg" alt="" />
+            </div>
+            <div class="project">
+              <div class="overlay hide">
+                <h2>INFERIOR DESIGN</h2>
+              </div>
+              <img src="./img/port5.jpeg" alt="" />
+            </div>
+            <div class="project">
+              <div class="overlay hide">
+                <h2>WEB DESIGN</h2>
+              </div>
+              <img src="./img/port6.jpeg" alt="" />
+            </div>
+            <div class="project">
+              <div class="overlay hide">
+                <h2>GRAPHIC DESIGN</h2>
+              </div>
+              <img src="./img/port7.jpeg" alt="" />
+            </div>
+            <div class="project">
+              <div class="overlay hide">
+                <h2>HOME DESIGN</h2>
+              </div>
+              <img src="./img/port8.jpeg" alt="" />
             </div>
           </div>
-        </div>
+          <div class="top">
+            <p class="project-para">Have a Project in Mind?</p>
+            <button class="btn btn--p">CONTACT NOW</button>
+          </div>
+        </section>
+        <section class="testimonial">
+          <div class="top">
+            <h1>TESTIMONIALS</h1>
+            <div class="line"></div>
+          </div>
+          <div class="slider">
+            <div class="slide">
+              <p>
+                It really saves me time and effort. web design is exactly what
+                our business has been lacking. Duis cursus, mi quis viverra
+                ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+                erat. Aenean faucibus nibh et justo cursus id rutrum lorem
+                imperdiet. Nunc ut sem risus tristique posuere.
+              </p>
+              <h4>WALTER WATT</h4>
+            </div>
+            <div class="slide">
+              <p>
+                It really saves me time and effort. web design is exactly what
+                our business has been lacking. Duis cursus, mi quis viverra
+                ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+                erat. Aenean faucibus nibh et justo cursus id rutrum lorem
+                imperdiet. Nunc ut sem risus tristique posuere.
+              </p>
+              <h4>ISIAQ RIDWAN</h4>
+            </div>
+            <div class="slide">
+              <p>
+                It really saves me time and effort. web design is exactly what
+                our business has been lacking. Duis cursus, mi quis viverra
+                ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+                erat. Aenean faucibus nibh et justo cursus id rutrum lorem
+                imperdiet. Nunc ut sem risus tristique posuere.
+              </p>
+              <h4>DONALD SIMPSON</h4>
+            </div>
+            <button class="slider__btn slider__btn--left">&larr;</button>
+            <button class="slider__btn slider__btn--right">&rarr;</button>
+            <div class="dots"></div>
+          </div>
+        </section>
       </div>
-    </nav>
+      <div class="section" id="services">
+        <section class="service--container">
+          <div class="top">
+            <h1>SERVICES</h1>
+            <p>Scope of our featured premium services</p>
+            <div class="line"></div>
+          </div>
+          <div class="down">
+            <div class="service">
+              <div class="icon"><i class="fa-solid fa-desktop"></i></i></div>
+              <h3>GRAPHIC DESIGNS</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim eros elementum tristique. Duis cursus,
+                viverra ornare, eros dolor interdum nulla, commodo diam libero
+                vitae.
+              </p>
+            </div>
+            <div class="service">
+              <div class="icon"><i class="fa-solid fa-code"></i></div>
+              <h3>WEB DESIGNS</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim eros elementum tristique. Duis cursus,
+                viverra ornare, eros dolor interdum nulla, commodo diam libero
+                vitae.
+              </p>
+            </div>
+            <div class="service">
+              <div class="icon"><i class="fa-brands fa-android"></i></div>
+              <h3>APPS DESIGN</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim eros elementum tristique. Duis cursus,
+                viverra ornare, eros dolor interdum nulla, commodo diam libero
+                vitae.
+              </p>
+            </div>
+            <div class="service">
+              <div class="icon"><i class="fa-solid fa-camera"></i></div>
+              <h3>PHOTOGRAPHY</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim eros elementum tristique. Duis cursus,
+                viverra ornare, eros dolor interdum nulla, commodo diam libero
+                vitae.
+              </p>
+            </div>
+            <div class="service">
+              <div class="icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <h3>BRANDING</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim eros elementum tristique. Duis cursus,
+                viverra ornare, eros dolor interdum nulla, commodo diam libero
+                vitae.
+              </p>
+            </div>
+            <div class="service">
+              <div class="icon">
+                <i class="fa-solid fa-earth-asia"></i>
+              </div>
+              <h3>HOSTING</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim eros elementum tristique. Duis cursus,
+                viverra ornare, eros dolor interdum nulla, commodo diam libero
+                vitae.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="section" id="team">
+          <section class="team--container">
+            <div class="top">
+              <h1>AWESOME TEAM</h1>
+              <p>Setibulum rutrum quam vitae fringilla tincidunt</p>
+              <div class="line"></div>
+            </div>
+            <div class="teams">
+              <div class="team">
+                <div class="project">
+                  <div class="overlay hide">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </div>
+                  <img class="team--img" src="./img/team1.jpg" alt="" />
+                </div>
+                <h5>Michael Thomas</h5>
+                <p>Creative Director</p>
+              </div>
+            
+              <div class="team">
+                <div class="project">
+                  <div class="overlay hide">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </div>
+                  <img class="team--img" src="./img/team2.jpg" alt="" />
+                </div>
+                <h5>Alexa Meyer</h5>
+                <p>Graphics Designer</p>
+              </div>
+              <div class="team">
+                <div class="project">
+                  <div class="overlay hide">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </div>
+                  <img class="team--img" src="./img/team3.jpg" alt="" />
+                </div>
+                <h5>Jeffery Steward</h5>
+                <p>Web Developer</p>
+              </div>
+              <div class="team">
+                <div class="project">
+                  <div class="overlay hide">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </div>
+                  <img class="team--img" src="./img/team4.jpg" alt="" />
+                </div>
+                <h5>Bruce Moore</h5>
+                <p>Web Designer</p>
+              </div>
+            </div>
+          </section>
 
-    
+        <section class="video">
+          <div class="top">
+            <i class="fa-regular fa-circle-play"></i>
+          </div>
+          <p>Aenean commodo ligula eget dolor sociis natoque penatibus et magnis
+            dis parturient montes, nascetur ridiculus consectetur muse.
+          </p>
+          <button class="btn vid--btn">DOWNLOAD NOW</button>
+        </section>
+      </div>
+
+      <div class="section" id="blog">
+        <section class="blog--container">
+          <div class="top">
+            <h1>LATEST NEWS</h1>
+            <p>Check out our latest news and activities</p>
+            <div class="line"></div>
+          </div>
+          <div class="blogs">
+            <div class="blog">
+              <div class="blog--img"><img src="./img/latestN1.jpg" alt=""></div>
+              <h3>Tempor incidunt labore dolor</h3>
+              <h5>December 23, 2022</h5>
+              <p>
+               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <a href="#" class="read">READ MORE &rarr;</a>
+            </div>
+            <div class="blog">
+              <div class="blog--img"><img src="./img/latestN2.jpg" alt=""></div>
+              <h3>Eiusmod tempor labore aliqua</h3>
+              <h5>December 23, 2022</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.              </p>
+              <a href="#" class="read">READ MORE &rarr;</a>
+            </div>
+            <div class="blog">
+              <div class="blog--img"><img src="./img/latestN3.jpeg" alt=""></div>
+              <h3>Conseqntur distinctio ipsum</h3>
+              <h5>December 23, 2022</h5>
+              <p>
+                Aenean commodo ligula eget dolor sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.              </p>
+              <a href="#" class="read">READ MORE &rarr;</a>
+            </div>
+          </div>
+          
+          <button class="btn btn--p">READ OUR BLOG</button>
+        </section>
+      </div>
+      <div class="section" id="contact">
+        <section class="contact--container">
+          <div class="top">
+            <h1>KEEP IN TOUCH</h1>
+            <p>Setibulum rutrum quam vitae fringilla tincidunt</p>
+            <div class="line"></div>
+          </div>
+          <div class="form">
+            <form action="#">
+              <input id="first--name" type="text" placeholder="Enter your name" required>
+              <input id="last--name"type="text" placeholder="Enter your name" required>
+              <input id="email" type="email" placeholder="Enter your email address" required>
+             <textarea name="message" id="msg" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button class="btn form--btn" type="submit">SEND MESSAGE</button>
+            </form>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="footer--container">
+          <div class="social--links">
+            <a class="nav--links" href="#" class="nav--links">FACEBOOK</a>
+              <a class="nav--links" href="#" class="nav--links">TWITTER</a>
+              <a class="nav--links" href="#" class="nav--links"
+                >INSTAGRAM</a
+              >
+              <a class="nav--links" href="#services" class="nav--links"
+                >GOOGLE+</a
+              >
+          </div>
+          <div class="copyright">
+            <p>  &copy; Copyright 2016 Krunch Landing page, Designed by
+              <a
+                class="footer__link"
+                target="_blank"
+                href="https://dribbble.com/ImShuvo"
+                >Shuvo</a
+              > and webflowed by <a
+              class="footer__link"
+              target="_blank"
+              href="http://taimurian.com/"
+              >Taimuran</a
+            > and redeveloped by <a
+            class="footer__link"
+            target="_blank"
+            href="https://twitter.com/RB_Isiaq"
+            >Isiaq Ridwan Bukola</a
+          > 2022</p>
+          </div>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
